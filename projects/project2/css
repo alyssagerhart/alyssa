@@ -1,0 +1,137 @@
+body{
+  margin: 60px;
+  
+  background-image: url("wbg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+
+div {
+      box-sizing:border-box;
+      border-radius:10px;
+      padding: 2%;
+      margin:0 0 2%;
+      }
+    
+#header {
+      background-color:#d7e9f8;
+      padding: 50px;
+      opacity: 0.8;
+      height: 120px;
+      text-align: center;
+    }
+    
+#footer {
+      background-color:#d7e9f8;
+      text-align:center;
+      clear:both;
+      height:60px;
+      opacity: 0.8;
+    }
+    
+#lnav {
+      background-color:#0c203f;
+      width:11%;
+      height:700px;
+      float:left;
+      opacity: 0.8;
+      padding:10px;
+    }
+
+#rnav {
+      background-color:#0c203f;
+      width:11%;
+      height: 700px;
+      float:right;
+      opacity: 0.8;
+      padding: 10px;
+      color: white;
+}
+   
+#bd {
+      background-color:#93aabc;
+      width:76%;  
+      height: 700px;     
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:10px;
+      margin-bottom: 10px;
+      color: white;
+     
+ }
+
+.hList{
+ text-align: center;
+ position:relative;
+}
+
+.hList ul{
+margin: 0px;
+}
+
+.hList li{
+margin: 0px 10px 0px 10px;
+display: inline;
+}
+
+h2{
+  font-size: 18px;
+}
+a.nav {
+  font-size: normal;
+  text-decoration: underline;
+  background-color:gray;
+  border-radius: 12px;
+  color: darkblue;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  float: left;
+}
+a:hover{
+  font-size:larger;
+  text-decoration: underline;
+  background-color: #243a76;
+  curser: pointer;
+}
+a:visited{
+  font-size: normal;
+  text-decoration: underline;
+  color:blue;
+}
+a:footer{
+  font-size: 20px;
+   font-weight: bolder;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left:auto;
+   margin-right:auto;
+   position:absolute; right:0px; top:0px;
+   
+}
+
+.selected{
+  font-weight: bold;
+}
+
+*{
+  font-family: Georgia, serif;
+
+}
+.container {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+  /* Setup */
+  position: relative;
+}
